@@ -2,10 +2,12 @@ let animals = ["Cat", "Dog", "Giraffe", "Croc"]
 let table = document.querySelector("#table")
 
 for (animal of animals) {
+    //Creates a row with a column
     let a = document.createElement("tr");
     let b = document.createElement("td");
     table.append(a);
     table.append(b);
+    //Adds data from array
     b.append(animal);
 }
 
@@ -24,11 +26,15 @@ let zoo = [
 console.log(zoo[0].name, zoo[0].id);
 
 for (beast of zoo) {
+    //Creates a row with two columns
     let a = document.createElement("tr");
     let b = document.createElement("td");
     let c = document.createElement("td");
     table2.append(a);
     a.append(b,c);
-    b.append(beast.id)
-    c.append(beast.name)  
+    //Adds Data from object
+    b.append(beast.id);
+    c.append(beast.name);  
 }
+
+//Don't forget danfo.js
