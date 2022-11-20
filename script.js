@@ -1,6 +1,3 @@
-let zoo = {
-    cat: 
-}
 let animals = ["Cat", "Dog", "Giraffe", "Croc"]
 let table = document.querySelector("#table")
 
