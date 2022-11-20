@@ -38,3 +38,8 @@ for (beast of zoo) {
 }
 
 //Don't forget danfo.js
+
+const mydata = JSON.parse(data);
+console.log(mydata[0].animal);
+
+//data = '[{"test":"John", "ID":30}]';
